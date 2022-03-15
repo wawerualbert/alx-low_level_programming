@@ -1,4 +1,4 @@
-#include "myheader.h"
+#include <stdio.h>
 
 /**
  * main - Print out reverse alphabet.
