@@ -4,11 +4,11 @@
 /**
  * struct dog - structure definition of a dog
  * @name: character string
- * @age : integer
+ * @age: integer
  * @owner: character string
  */
 
-typedef struct dog 
+typedef struct dog
 {
 	char *name;
 	float age;
@@ -22,4 +22,3 @@ void free_dog(dog_t *d);
 char *_strcpy(char *dest, char *src);
 int _strlen(char *s);
 #endif
-
